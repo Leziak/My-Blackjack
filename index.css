@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: space-between;
+}
+
+#container {
+    width: 80%;
+    height: 90vh;
+    background: #009900;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.chip {
+    border: 0px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 1.75rem;
+    color: white;
+}
+
+#dealer-score, #player-score {
+    border-radius: 0%;
+    color: black;
+}
+
+#plays, #chips {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    padding: 20px 30px;
+    outline: none;
+}
+
+#board {
+    display: flex;
+    justify-content: space-around;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#red {
+    background-color: red;
+}
+
+#black {
+    background-color: black;
+}

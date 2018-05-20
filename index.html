@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blackjack</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <div id="chips">
+        <div class="chip" id="dealer-score"></div>
+        <div id="blue" class="chip">10</div>
+        <div id="yellow" class="chip">25</div>
+        <div id="red" class="chip">50</div>
+        <div id="black" class="chip">100</div>
+        <div class="chip" id="player-score"></div>    
+    </div>
+    <div id="container">
+        <div id="dealer">
+        </div>
+        <div id="board">
+            <span id="total">
+                <h2>You have <span id="total-amount">1000</span> dollars!</h2>
+            </span>
+            <span id="bet">
+                <h2>You have bet <span id="bet-amount">0</span> dollars!</h2> 
+            </span>
+            <span id="win-lose">
+                <h2><span id="status">Place your bet!</span></h2>
+            </span>
+        </div>
+        <div id="player">
+        </div>
+    </div>
+    <div id="plays">
+        <button id="new-game">
+            New game
+        </button>
+        <button id="next-turn">
+            Bet
+        </button>
+        <button id="draw">
+            Draw
+        </button>
+        <button id="stand">
+            Stand
+        </button>
+    </div>
+    <script src="/index.js"></script>
+</body>
+
+</html>
